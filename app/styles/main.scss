@@ -1,0 +1,17 @@
+// bower:scss
+// endbower
+
+/*------------------------------------*\
+    $MAIN
+\*------------------------------------*/
+
+@import 'reset';
+@import 'base';
+@import 'structure';
+
+@import 'header';
+@import 'content';
+@import 'callToAction';
+@import 'footer';
+
+@import "mediaQueries";

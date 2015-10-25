@@ -1,0 +1,29 @@
+/*------------------------------------*\
+    $FOOTER
+\*------------------------------------*/
+
+.footer {
+  background-color: $back-gray-footer;}
+
+.footer-content{
+  align-items:center;
+
+  p {
+    color: $gray555;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 550px;
+    margin: 25px 0 33px;
+    text-align: center;
+  }
+
+  a:first-child {
+    padding-right: 25px;
+  }
+}
+
+.footer-bar {
+  background: url(../images/footer-bar.png) repeat-x;
+  height: 7px;
+  width:100%;
+}

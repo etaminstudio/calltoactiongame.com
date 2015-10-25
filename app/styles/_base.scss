@@ -1,0 +1,42 @@
+/*------------------------------------*\
+    $BASE
+\*------------------------------------*/
+/**
+ * COLOR............. color variables
+ * BASE.............
+ */
+
+ * {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+
+/*------------------------------------*\
+    $COLOR
+\*------------------------------------*/
+
+$primaryColor:  #30C974;
+$gray999: #999;
+$gray555: #555;
+
+$back-gray-default: #182024;
+$back-gray-footer: #11171a;
+
+/*------------------------------------*\
+    $BASE
+\*------------------------------------*/
+
+body {
+  background: white;
+  font-family: "prometo",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+p {
+  color: $gray999;
+  font-family: "prometo",sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+}

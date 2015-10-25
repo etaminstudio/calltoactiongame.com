@@ -1,0 +1,52 @@
+/*------------------------------------*\
+    $HEADER
+\*------------------------------------*/
+
+.header {
+  background: url(../images/back-header.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: block;
+  height: 656px;;
+  padding: 116px 0 0;
+  width: 100%;
+}
+
+.header-content {
+  position: relative;
+  height: 100%;
+
+  &:after {
+    background: url(../images/geometric-box.jpg) no-repeat ;
+    bottom: -45px;
+    content: '';
+    height: 90px;
+    left: 0;
+    position: absolute;
+    width: 187px;
+  }
+}
+
+.header-logo {
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  display: flex;
+
+  align-items: center;
+  background-color: white;
+  flex-direction: row;
+  height: 213px;
+  justify-content: center;
+  width: 283px;
+
+  h1{
+    background: url(../images/logo.png) no-repeat;
+    height: 59px;
+    text-indent: -9999px;
+    width: 157px;
+  }
+}

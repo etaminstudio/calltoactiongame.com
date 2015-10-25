@@ -1,0 +1,88 @@
+/*------------------------------------*\
+    $CONTENT
+\*------------------------------------*/
+
+.content {
+  position: relative;
+
+  &:before,
+  &:after {
+    height:48px;
+    position: absolute;
+    width: 46px;
+  }
+
+  &:before {
+    background-color: black;
+    content: '';
+    left: 0;
+    top: 45%;
+  }
+
+  &:after {
+    background-color: $primaryColor;
+    bottom: 35%;
+    content: '';
+    right: 0;
+  }
+}
+
+/* ----- content title ----- */
+.content-title h2 {
+    font-family: "industry",sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 84px;
+    position: relative;
+    text-transform: uppercase;
+
+  &:first-child{
+    letter-spacing: 4px;
+    z-index: 5;
+  }
+
+  &:last-child {
+    color: $primaryColor;
+    letter-spacing: 8px;
+    top: -48px;
+    z-index:0;
+  }
+}
+
+/* ---- content description ----- */
+.descript-text {
+  padding-bottom: 30px;
+
+  span {
+    color: $primaryColor;
+  }
+}
+
+.content-icon {justify-content: space-between;}
+
+.block-icon:first-child {padding-right: 15px;}
+.block-icon:last-child {padding-left: 15px;}
+
+.block-icon {
+  align-items: center;
+  width: 100%;
+}
+
+.icon-text {
+  flex: 1;
+  padding-left: 15px;
+  margin-top: 8px;
+
+  h3 {
+    color: $primaryColor;
+    font-family: "industry",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 18px;
+    max-width: 220px;
+  }
+}

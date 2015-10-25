@@ -1,0 +1,30 @@
+/*------------------------------------*\
+    $STRUCTURE
+\*------------------------------------*/
+
+.section {
+  margin: 0 auto;
+  max-width: 1213px;
+  width: 100%;
+}
+
+/* ---- section margin ---- */
+.section-margin-large{padding: 200px 0;}
+.section-margin-medium{padding: 100px 0;}
+.section-margin-small{padding: 50px 0;}
+
+/* ---- container & block with display flex ---- */
+.container-row,
+.container-column {
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  display: flex;
+}
+
+.container-column{flex-direction: column;}
+.container-row {flex-direction: row;}
+
+.block {
+  flex: 1 1 0;
+}

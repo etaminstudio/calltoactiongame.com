@@ -1,0 +1,78 @@
+/*------------------------------------*\
+    $CALL TO ACTION
+\*------------------------------------*/
+
+.call-to-action {
+  align-items: center;
+  background-color: $back-gray-default;
+  position: relative;
+
+  &:before {
+    background: url(../images/glitch-left.png) no-repeat;
+    content: '';
+    height:37px;
+    left: 0;
+    position: absolute;
+    top: 80px;
+    width:305px;
+  }
+
+  &:after {
+    background: url(../images/glitch-right.png) no-repeat;
+    bottom: 110px;
+    content: '';
+    height: 57px;
+    position: absolute;
+    right: 0;
+    width: 198px
+  }
+}
+
+.call-to-action-content{
+  align-items:center;
+
+  h2 {
+    color: $primaryColor;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.call-to-action-button {
+  margin-top:30px;
+
+  input,
+  button {
+    font-family: "industry",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    height: 100%;
+    outline:none;
+  }
+
+  input {
+    border: 1px solid $primaryColor;
+    background-color: $back-gray-default;
+    color: $primaryColor;
+    padding: 13px 10px 13px 20px;
+    text-align: left;
+    width: 320px;
+
+    &:active {
+      border: 1px solid #808a8f;
+    }
+
+    &::placeholder {
+      color: #808a8f;
+    }
+  }
+
+  button {
+    background-color: $primaryColor;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 14px 70px;
+  }
+}

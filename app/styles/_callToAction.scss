@@ -3,6 +3,7 @@
 \*------------------------------------*/
 
 .call-to-action {
+  -webkit-align-items: center;
   align-items: center;
   background-color: $back-gray-default;
   position: relative;
@@ -29,7 +30,8 @@
 }
 
 .call-to-action-content{
-  align-items:center;
+  -webkit-align-items: center;
+  align-items: center;
 
   h2 {
     color: $primaryColor;
@@ -39,9 +41,9 @@
   }
 }
 
-.call-to-action-button {
-  margin-top:30px;
+.call-to-action-button {margin-top:30px;}
 
+.container-call-to-action {
   input,
   button {
     font-family: "industry",sans-serif;
@@ -53,6 +55,7 @@
 
   input {
     border: 1px solid $primaryColor;
+    border-radius: 0;
     background-color: $back-gray-default;
     color: $primaryColor;
     padding: 13px 10px 13px 20px;

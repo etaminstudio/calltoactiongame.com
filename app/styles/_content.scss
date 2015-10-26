@@ -58,18 +58,23 @@
   }
 }
 
-.content-icon {justify-content: space-between;}
+.content-icon {
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+}
 
 .block-icon:first-child {padding-right: 15px;}
 .block-icon:last-child {padding-left: 15px;}
 
 .block-icon {
+  -webkit-align-items: center;
   align-items: center;
-  width: 100%;
+  -webkit-box-flex: 1;
+  flex: 1 1;
 }
 
 .icon-text {
-  flex: 1;
   padding-left: 15px;
   margin-top: 8px;
 

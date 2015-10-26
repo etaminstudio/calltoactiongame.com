@@ -10,7 +10,7 @@
   background-size: cover;
 
   display: block;
-  height: 656px;;
+  height: 656px;
   padding: 116px 0 0;
   width: 100%;
 }
@@ -35,12 +35,23 @@
   -moz-display: flex;
   -ms-display: flex;
   display: flex;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-webkit-flexbox;
+  display:-moz-flex;
+  display:-moz-box;
+  display:-ms-flexbox;
+  display: -webkit-flex;
 
+  -webkit-align-items: center;
   align-items: center;
-  background-color: white;
+  -webkit-flex-direction: row;
   flex-direction: row;
-  height: 213px;
+  -webkit-justify-content: center;
   justify-content: center;
+
+  background-color: white;
+  height: 213px;
   width: 283px;
 
   h1{

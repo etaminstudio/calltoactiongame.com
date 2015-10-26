@@ -59,8 +59,8 @@
     text-align: left;
     width: 320px;
 
-    &:active {
-      border: 1px solid #808a8f;
+    &:focus {
+      background-color: rgba(white, 0.05);
     }
 
     &::placeholder {
@@ -74,5 +74,10 @@
     color: white;
     cursor: pointer;
     padding: 14px 70px;
+
+    &:hover,
+    &:focus {
+      background-color: rgba($primaryColor, 0.8);
+    }
   }
 }

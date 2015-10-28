@@ -6,6 +6,8 @@
   background-color: $back-gray-footer;}
 
 .footer-content{
+  -ms-aligns-items: center;
+  -webkit-align-items: center;
   align-items:center;
 
   p {
@@ -15,6 +17,7 @@
     max-width: 550px;
     margin: 25px 0 33px;
     text-align: center;
+    width: 100%;
   }
 
   a:first-child {

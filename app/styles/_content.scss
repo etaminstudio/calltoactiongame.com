@@ -59,24 +59,30 @@
 }
 
 .content-icon {
+  -ms-justify-content: space-between;
   -webkit-justify-content: space-between;
   justify-content: space-between;
   width: 100%;
 }
 
-.block-icon:first-child {padding-right: 15px;}
+.block-icon:first-child {margin-right: 40px;}
 .block-icon:last-child {padding-left: 15px;}
 
 .block-icon {
+  -ms-aligns-items: center;
   -webkit-align-items: center;
   align-items: center;
   -webkit-box-flex: 1;
-  flex: 1 1;
+  box-flex: 1;
+  -ms-flex: 1;
+  -webkit-flex: 1 1;
+  flex: 1 1 auto;
 }
 
 .icon-text {
   padding-left: 15px;
   margin-top: 8px;
+  width: 80%;
 
   h3 {
     color: $primaryColor;

@@ -3,6 +3,7 @@
 \*------------------------------------*/
 
 .call-to-action {
+  -ms-aligns-items: center;
   -webkit-align-items: center;
   align-items: center;
   background-color: $back-gray-default;
@@ -30,6 +31,7 @@
 }
 
 .call-to-action-content{
+  -ms-aligns-items: center;
   -webkit-align-items: center;
   align-items: center;
 

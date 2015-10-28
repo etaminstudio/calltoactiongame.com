@@ -43,16 +43,20 @@
   display:-ms-flexbox;
   display: -webkit-flex;
 
+  -ms-aligns-items: center;
   -webkit-align-items: center;
   align-items: center;
+  -ms-flex-direction: row;
   -webkit-flex-direction: row;
   flex-direction: row;
+  -ms-justify-content: row;
   -webkit-justify-content: center;
   justify-content: center;
 
   background-color: white;
   height: 213px;
-  width: 283px;
+  max-width: 283px;
+  width: 100%;
 
   h1{
     background: url(../images/logo.png) no-repeat;
